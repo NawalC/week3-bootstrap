@@ -1,3 +1,18 @@
 .selector-for-some-widget {
     box-sizing: content-box;
   }
+
+  .side-bar {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    flex-basis: 25%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(215, 229, 210, 0.4);
+}
+
+#side_heading {
+    margin: 0;
+    padding: 0.5rem 1.5rem;
+}
